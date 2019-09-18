@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Petshop</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+        <div class=" container">
+            <!-- Brand -->
+
+            <a class="navbar-brand" href="#">
+                <img src="./IMG/logo.png" alt="Pote de ração" style="width: 60px; height: 60px;">
+                Petshop
+            </a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Serviços">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Localizaçao">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Equipe">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="Fundo">
+        <div class="Fundo2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 text-center align-self-center text-white">
+                        <h2>Conheça mais nosso Petshop</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cum adipisci soluta esse
+                            hic commodi.
+                        </p>
+                    </div>
+                    <div>
+                        <img class="img-fluid  mt-3 d-none d-md-block" src="./IMG/collage.jpg" alt="Petshop">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form class="bg-secondary py-4 text-white">
+        <div class="container">
+            <h4><i>Comprove Nosso Trabalho, Cadastre-se</i></h4>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <input type="email" class="form-control form-control-lg mt-1" placeholder="Informe seu e-mail">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-dark btn-lg btn-block mt-1">
+                        Cadastrar
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+
+    <!-- SERVIÇOS-->
+
+    <div class="m-menu" id="Serviços"></div>
+    <section class="mt-3"></section>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Nossos Serviços</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corporis similique possimus minus
+                magnam velit fuga error, qui recusandae. Adipisci tenetur, itaque veniam maiores dolore
+                consectetur
+                temporibus mollitia illum possimus?</p>
+        </div>
+        <div id="accordion">
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        Tratamento de Pelo
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ad laborum commodi odio
+                        quisquam tempore non praesentium laboriosam iure accusamus? Placeat perferendis, natus,
+                        optio accusamus excepturi, sit molestias architecto facere accusantium cum mollitia eum
+                        maiores veniam in ea perspiciatis quisquam.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                        Banho
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad itaque quos vero, labore
+                        dignissimos maxime aut velit ut iure eos expedita quisquam? Deleniti unde placeat debitis,
+                        quidem doloribus error, porro neque magnam amet sint adipisci reiciendis. Voluptatum neque
+                        amet, doloremque quaerat mollitia eos qui perferendis.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                        Cuidados
+                    </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci quas sint
+                        facilis assumenda nulla nobis error molestias natus magni. Quaerat, dolorem! Excepturi
+                        dolores quasi magni nisi unde impedit, vero ipsum illum officiis. Ipsam voluptates vel
+                        incidunt itaque repellat harum libero iusto minima, aperiam obcaecati dignissimos.
+                        Temporibus, ut. Modi, obcaecati.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+
+    <div class="m-menu" id="Localizaçao"></div>
+    <section class="bg-dark text-white mt-3 py-4">
+        <div class="container">
+            <h3>Localização</h3>
+            <div class="row">
+                <div class="col-md-8 embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108567.34708514268!2d-52.389920337269295!3d-31.75058099387208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9511b5a076da0735%3A0x6bbed475d76e2f25!2sCasa%20dos%20Bichos!5e0!3m2!1spt-BR!2sbr!4v1568787236853!5m2!1spt-BR!2sbr"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                </div>
+                <div class="col-md-4 text-center align-self-center">
+                    <h4>Rua General Osório, 1183</h4>
+                    <h5>Bairro: Centro</h5>
+                    <h5>Pelotas - RS</h5>
+                    <h5>Fone: (53) 3307-0004</h5>
+                    <h5>E-mail: casadosbichos@gmail.com</h5>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-3">
+        <div class="card-deck">
+
+            <div class="card bg-dark border-white">
+                <div class="card-body text-center text-white">
+                    <h3>Estacionamento Próprio</h3>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nisi! Quasi, consequuntur!
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-white border-dark">
+                <div class="card-body text-center text-dark">
+                    <h3>Próximo BR-116</h3>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nisi! Quasi, consequuntur!
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-dark border-white">
+                <div class="card-body text-center text-white">
+                    <h3>Fácil Localização</h3>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nisi! Quasi, consequuntur!
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-white border-dark">
+                <div class="card-body text-center text-dark">
+                    <h3>Garagem Coberta</h3>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nisi! Quasi, consequuntur!
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- EQUIPE -->
+
+    <div class="m-menu" id="Equipe"></div>
+    <section class="bg-equipe py-5">
+        <div class="container">
+            <h3 class="text-white">Nossa Equipe Petshop</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./IMG/Pyong Lee.jpg" alt="Pyong">
+                        <div class="card-body">
+                            <h4 class="card-title">Pyong Lee</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+                                sequi, tempora ipsam a culpa consequatur.</p>
+                            <a href="#" class="btn btn-primary">Cuidador de animais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./IMG/Marcos Coelho.jpg" alt="Marcos">
+                        <div class="card-body">
+                            <h4 class="card-title">Marcos Coelho</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, fugit
+                                quasi? Voluptatem necessitatibus cupiditate nisi!</p>
+                            <a href="#" class="btn btn-primary">tratador de pelos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./IMG/Bibiana Tatto.jpg" alt="Bibiana">
+                        <div class="card-body">
+                            <h4 class="card-title">Bibiana Tatto</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                                voluptate iusto dolorum natus ad sed.</p>
+                            <a href="#" class="btn btn-primary">Banho Animal</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./IMG/Lya Tamires.jpg" alt="Lya">
+                        <div class="card-body">
+                            <h4 class="card-title">Lya Tamires</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fugiat
+                                cumque mollitia ipsam, a at.</p>
+                            <a href="#" class="btn btn-primary">Cortadora de Unhas Animal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+
+    <div class="m-menu" id="Contato"></div>
+    <section class="bg-light py-5"></section>
+    <div class="container">
+        <h3 class="text-primary my-4">Entre em Contato Conosco:</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="./IMG/email.png" alt="E-mail" class="img-fluid d-none d-md-block">
+            </div>
+            <div class="col-md-9">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="far fa-user"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Nome Completo">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="far fa-envelope"></i></span>
+                    </div>
+                    <input type="email" class="form-control" placeholder="E-mail para Contato">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-users"></i></span>
+                    </div>
+                    <select class="form-control">
+                        <option value="" selected disabled>--Selecione o que Deseja Para Seu Bixinho de Estimação--
+                        </option>
+                        <option value="ban">Banho</option>
+                        <option value="tra">Tratamento de Pelo</option>
+                        <option value="cor">Cortar Unhas</option>
+                        <option value="cui">Cuidados</option>
+                        <option value="tdo">Todas Opções</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="far fa-edit"></i></span>
+                    </div>
+                    <textarea class="form-control" placeholder="Digite seu comentário"></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="btn btn-primary btn-lg px-5">
+                <input type="reset" value="Limpar" class="btn btn-danger btn-lg px-5">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer class="mt-5 bg-equipe py-3">
+        <div class="container">
+            <p class="text-center text-white my-2">
+                <i>Direito Autoral Inalterado - Sombra</i>
+            </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
